@@ -81,7 +81,6 @@ header .icons i:hover,
 header .icons a:hover {
   color: #fff;
   background-color: var(--green);
-  transform: rotate(-320deg);
 }
 
 header .icons #menu-bars {
@@ -135,6 +134,12 @@ header .icons #menu-bars {
     background-color: #fff;
     border-top: 0.1rem solid grba(0, 0, 0, 0.2);
     border-bottom: 0.1rem solid grba(0, 0, 0, 0.2);
+    padding: 1rem;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header .navbar.active {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 
   header .navbar a {
@@ -145,49 +150,9 @@ header .icons #menu-bars {
     background-color: #eee;
   }
 }
-@media (max-width: 768px) {
-  header .icons #menu-bars {
-    display: inline-block;
-  }
 
-  header .navbar {
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    right: 0px;
-    background-color: #fff;
-    border-top: 0.1rem solid grba(0, 0, 0, 0.2);
-    border-bottom: 0.1rem solid grba(0, 0, 0, 0.2);
-  }
-
-  header .navbar a {
-    display: block;
-    padding: 1.5rem;
-    margin: 1rem;
-    font-size: 2rem;
-    background-color: #eee;
-  }
-}
-@media (max-width: 768px) {
-  header .icons #menu-bars {
-    display: inline-block;
-  }
-
-  header .navbar {
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    right: 0px;
-    background-color: #fff;
-    border-top: 0.1rem solid grba(0, 0, 0, 0.2);
-    border-bottom: 0.1rem solid grba(0, 0, 0, 0.2);
-  }
-
-  header .navbar a {
-    display: block;
-    padding: 1.5rem;
-    margin: 1rem;
-    font-size: 2rem;
-    background-color: #eee;
+@media (max-width: 400px) {
+  html {
+    font-size: 50%;
   }
 }
