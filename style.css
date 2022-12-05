@@ -26,6 +26,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* header section */
 header {
   position: fixed;
   top: 0px;
@@ -38,4 +39,51 @@ header {
   justify-content: space-between;
   z-index: 1000;
   box-sizing: var(--box-shadow);
+}
+
+header .logo {
+  color: var(--green);
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+header .logo i {
+  color: var(--green);
+}
+
+header .navbar a {
+  font-size: 1.7rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  color: var(--light-color);
+}
+header .navbar a.active,
+header .navbar a:hover {
+  color: #fff;
+  background-color: var(--green);
+}
+
+header .icons i,
+header .icons a {
+  cursor: pointer;
+  margin-left: 0.5rem;
+  height: 4.5rem;
+  line-height: 4.5rem;
+  width: 4.5rem;
+  text-align: center;
+  font-size: 1.7rem;
+  color: var(--black);
+  border-radius: 50%;
+  background: #eee;
+}
+
+header .icons i:hover,
+header .icons a:hover {
+  color: #fff;
+  background-color: var(--green);
+  transform: rotate(-320deg);
+}
+
+header .icons #menu-bars {
+  display: none;
 }
