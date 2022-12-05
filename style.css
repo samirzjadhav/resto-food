@@ -87,3 +87,14 @@ header .icons a:hover {
 header .icons #menu-bars {
   display: none;
 }
+
+/* media queries */
+@media (max-width: 991px) {
+  html {
+    font-size: 55%;
+  }
+
+  header {
+    padding: 1rem 2rem;
+  }
+}
