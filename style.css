@@ -100,6 +100,10 @@ header .icons #menu-bars {
   padding: 0rem 1rem;
 }
 
+#search-form.active {
+  top: 0%;
+}
+
 #search-form #search-box {
   width: 50rem;
   border-bottom: 0.1rem solid #fff;
@@ -198,6 +202,11 @@ header .icons #menu-bars {
     margin: 1rem;
     font-size: 2rem;
     background-color: #eee;
+  }
+
+  #search-form #search-box {
+    width: 90%;
+    margin: 0px 1rem;
   }
 }
 
