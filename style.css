@@ -128,6 +128,15 @@ header .icons #menu-bars {
   color: var(--green);
 }
 
+#search-form #close {
+  position: absolute;
+  color: #fff;
+  cursor: pointer;
+  top: 3rem;
+  right: 3rem;
+  font-size: 3rem;
+}
+
 /* media queries */
 @media (max-width: 991px) {
   html {
