@@ -34,6 +34,22 @@ section:nth-child(even) {
   background: #eee;
 }
 
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  font-size: 1.7rem;
+  color: #fff;
+  background: var(--black);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding: 0.8rem 3rem;
+}
+
+.btn:hover {
+  background: var(--green);
+  letter-spacing: 0.1rem;
+}
+
 /* header section */
 header {
   position: fixed;
