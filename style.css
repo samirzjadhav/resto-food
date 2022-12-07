@@ -200,6 +200,10 @@ header .icons #menu-bars {
   line-height: 1.5;
 }
 
+.swiper-pagination-bullet-active {
+  background: var(--green);
+}
+
 /* media queries */
 @media (max-width: 991px) {
   html {
@@ -208,6 +212,14 @@ header .icons #menu-bars {
 
   header {
     padding: 1rem 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  .home .home-slider .slide {
+    padding: 1rem;
   }
 }
 
@@ -234,6 +246,7 @@ header .icons #menu-bars {
     background-color: #eee;
   }
 }
+
 @media (max-width: 768px) {
   header .icons #menu-bars {
     display: inline-block;
@@ -266,6 +279,10 @@ header .icons #menu-bars {
   #search-form #search-box {
     width: 90%;
     margin: 0px 1rem;
+  }
+
+  .home .home-slider .slide .content h3 {
+    font-size: 5rem;
   }
 }
 

@@ -10,6 +10,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     />
+
+    <!-- swiper cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
     <!-- link custom css file-->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -49,9 +56,9 @@
 
     <!-- home section start  -->
     <section class="home" id="home">
-      <div class="home-slider">
-        <div class="wrapper">
-          <div class="slide">
+      <div class="swiper home-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
             <div class="content">
               <span> Our special dish </span>
               <h3>spicy noodle</h3>
@@ -63,7 +70,7 @@
             </div>
           </div>
 
-          <div class="slide">
+          <div class="swiper-slide slide">
             <div class="content">
               <span> Our special dish </span>
               <h3>fried chicken</h3>
@@ -75,7 +82,7 @@
             </div>
           </div>
 
-          <div class="slide">
+          <div class="swiper-slide slide">
             <div class="content">
               <span> Our special dish </span>
               <h3>hot pizza</h3>
@@ -87,8 +94,12 @@
             </div>
           </div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
+
+    <!-- swiper cdn js  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- custom js file link-->
     <script src="./script.js"></script>
