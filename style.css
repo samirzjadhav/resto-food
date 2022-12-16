@@ -34,6 +34,21 @@ section:nth-child(even) {
   background: #eee;
 }
 
+.sub-heading {
+  text-align: center;
+  color: var(--green);
+  font-size: 2rem;
+  padding-top: 1rem;
+}
+
+.heading {
+  text-align: center;
+  color: var(--black);
+  font-size: 3rem;
+  padding-bottom: 2rem;
+  text-transform: uppercase;
+}
+
 .btn {
   margin-top: 1rem;
   display: inline-block;
