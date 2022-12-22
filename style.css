@@ -576,6 +576,16 @@ header .icons #menu-bars {
   color: var(--light-color);
 }
 
+.order form {
+  width: 90rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--box-shadow);
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  padding: 1.5rem;
+  margin: o auto;
+}
+
 /* media queries */
 @media (max-width: 991px) {
   html {
