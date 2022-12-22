@@ -577,7 +577,7 @@ header .icons #menu-bars {
 }
 
 .order form {
-  width: 90rem;
+  max-width: 90rem;
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
@@ -622,6 +622,11 @@ header .icons #menu-bars {
 
 .order form .btn {
   margin-top: 0;
+}
+
+.order form .inputBox .input input:focus,
+.order form .inputBox .input textarea:focus {
+  border: 0.1rem solid var(--green);
 }
 
 /* media queries */
@@ -706,12 +711,16 @@ header .icons #menu-bars {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 450px) {
   html {
     font-size: 50%;
   }
   .dishes .box-container .box img {
     height: auto;
+    width: 100%;
+  }
+
+  .order form .inputBox .input {
     width: 100%;
   }
 }
