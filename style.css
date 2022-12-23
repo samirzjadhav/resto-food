@@ -67,7 +67,6 @@ section:nth-child(even) {
 
 /* header section */
 header {
-  width: 90%;
   position: fixed;
   top: 0px;
   right: 0px;
@@ -444,6 +443,10 @@ header .icons #menu-bars {
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
   border-radius: 0.5rem;
   position: relative;
+}
+
+.swiper-slide {
+  width: 370px;
 }
 
 .review .slide .fa-quote-right {
