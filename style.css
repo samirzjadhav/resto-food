@@ -445,10 +445,6 @@ header .icons #menu-bars {
   position: relative;
 }
 
-.swiper-slide {
-  width: 370px;
-}
-
 .review .slide .fa-quote-right {
   position: absolute;
   top: 2rem;
@@ -770,6 +766,10 @@ header .icons #menu-bars {
   .dishes .box-container .box img {
     height: auto;
     width: 100%;
+  }
+
+  .review {
+    display: none;
   }
 
   .order form .inputBox .input {
